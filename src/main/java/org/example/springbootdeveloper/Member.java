@@ -7,7 +7,8 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @Entity
-public class Member {
+
+public class Member { // 테이블 접근에 사용할 객체
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id",updatable = false)

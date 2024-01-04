@@ -11,6 +11,6 @@ public class TestService {
     MemberRepository memberRepository;
 
     public List<Member> getAllMembers(){
-        return memberRepository.findAll();
+        return memberRepository.findAll();// 멤버 목록 얻기
     }
 }
